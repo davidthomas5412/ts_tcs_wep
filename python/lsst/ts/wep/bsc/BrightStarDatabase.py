@@ -183,7 +183,7 @@ class BrightStarDatabaseTest(unittest.TestCase):
     """
 
     # UW database setting
-    databaseHost = "localhost:51433"
+    databaseHost = "fatboy.phys.washington.edu:51433"
     databaseUser = "LSST-2"
     databasePassword = "L$$TUser"
     databaseName = "LSSTCATSIM"

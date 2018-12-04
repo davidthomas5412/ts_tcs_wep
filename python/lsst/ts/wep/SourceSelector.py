@@ -555,7 +555,7 @@ class SourceSelectorTest(unittest.TestCase):
         dbAdress = os.path.join(self.modulePath, "test", "bsc.db3")
 
         # Remote database setting
-        databaseHost = "localhost:51433"
+        databaseHost = "gateway.astro.washington.edu:51433"
         databaseUser = "LSST-2"
         databasePassword = "L$$TUser"
         databaseName = "LSSTCATSIM"
