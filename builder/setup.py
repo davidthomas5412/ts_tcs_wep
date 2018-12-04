@@ -9,7 +9,7 @@ import numpy
 from lsst.ts.wep.Utility import getModulePath
 
 # Get the path of module
-modulePath = getModulePath()
+modulePath = getModulePath(startIdx=0)
 
 extension = Extension(
            "cyMath",

@@ -17,8 +17,7 @@ def getModulePath(module=lsst.ts.wep, startIdx=3, endIdx=-4):
     """
 
     # Get the path of module
-    modulePathList = os.path.dirname(module.__file__).split(os.sep)[startIdx:endIdx]
-    modulePath = os.path.join(str(Path.home()), *modulePathList)
+    modulePath = '/project/activeoptics/firstdonuts/ts_tcs_wep'
     
     return modulePath
 
